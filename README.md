@@ -7,8 +7,8 @@ The code mainly include the process of denoising. Using the process of denoising
 If you use this code or dataset, please cite following paper:
 ```
 @inproceedings{Xie2021attack_1,
-  title={Towards Attack to the Adversarial Example Based Privacy Protection Schemes},
-  author={Guangxu Xie},
+  title={Towards Attack to MemGuard With Non-Local-means Method},
+  author={Guangxu Xie, Qingqi Pei},
   booktitle={Security and Communication Networks},
   year={2021}
 }
