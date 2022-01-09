@@ -1,4 +1,3 @@
-# 改成1维数组。
 import numpy as np
 
 def NLmeansfilter(input, t, f, h):
@@ -31,8 +30,6 @@ def NLmeansfilter(input, t, f, h):
             W2 = input2[:, r - f:r + f + 1]
             d = np.sum(kernel * (W1 - W2) * (W1 - W2), axis=1)
             w = np.exp(-1 * d / h)
-            #解决方案1：c = a-b，判断c是否大于0
-            #解决方案2：比较后能否直接取大值？可以使用np.maximum
             wmax = np.maximum(w,wmax)
             sweight = sweight + w
             average = average + w * input2[:,r]
