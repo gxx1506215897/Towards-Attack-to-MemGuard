@@ -6,7 +6,7 @@ We use the non-local-method to attack the [MemGuard](https://arxiv.org/abs/1909.
   <img src="https://github.com/gxx1506215897/Towards-Attack-to-MemGuard/blob/main/Experimental_result/texas.png" alt='images' width="300"/>
   <img src="https://github.com/gxx1506215897/Towards-Attack-to-MemGuard/blob/main/Experimental_result/chmnist.png" alt='images' width="300"/> 
 </p>
-
+(a)Location
 ## Code usage
 The code mainly include the process of denoising. Using the process of denoising, we can remove the noise added by MemGuard, the result of our experiments prove our conclusion.
 ## Citation
