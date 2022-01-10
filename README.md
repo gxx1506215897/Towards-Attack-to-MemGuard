@@ -14,7 +14,7 @@ The code mainly include the process of denoising. Using the process of denoising
 ## Citation
 If you use this code or dataset, please cite following paper:
 ```
-@inproceedings{Xie2021attack_1,
+@inproceedings{Xie2021attack_2,
   title={Towards Attack to MemGuard With Non-Local-means Method},
   author={Guangxu Xie, Qingqi Pei},
   booktitle={Security and Communication Networks},
